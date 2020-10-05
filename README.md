@@ -1,3 +1,5 @@
+
+```
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
@@ -107,3 +109,5 @@ model.summary()
 
 scores = model.evaluate(x_test, y_test, verbose=0)
 print("Accuracy: %.2f%%" % (scores[1]*100), "| Loss: %.5f" % (scores[0]))
+
+```
